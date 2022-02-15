@@ -1,0 +1,194 @@
+body{
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+   margin: 0; 
+}
+#pageLogo a{
+    padding: 10px;
+font-family:"Oleo script", sans-serif ;
+/* color: rgb(245,243,160); */
+color: #fbd86e;
+font-size: 22px;
+text-decoration: none;
+text-transform: uppercase;
+text-shadow: 1px 1px 2px rgb(0 0 0);
+}
+ul{
+   list-style: none; 
+   margin: 0;
+   padding: 0;
+}
+.wlcmHdr{
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    background-color:rgba(153, 153, 218, 0.5);
+   
+    align-items: center;
+    justify-content: space-between;
+    filter: blur(.3px);
+   
+
+}
+.fName{
+    font-family:"Oleo script", sans-serif ;
+/* color: rgb(245,243,160); */
+color: #faefd2;
+font-size: 24px;
+}
+#topPic p{
+    font-size: 20px;
+}
+.wlcmHdr a{
+    text-decoration: none;
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    margin: 10px;
+    padding: 3px;
+
+}
+li{
+padding: 10px;
+}
+#topPic{
+   height: auto; 
+      width: 100%;
+      
+     /* max-width: 100%;
+     height: auto; */
+  
+    background-image:
+     url("../../images/flowersunrisecropped.jpg");
+    background-size:cover;
+ background-repeat: no-repeat;
+ opacity:.8;
+padding:1%;
+box-shadow:  0 0 12px 16px rgba(153, 74, 194, .65) inset;
+color: white;
+text-shadow: 2px 2px rgba(190, 3, 134, 0.349);
+margin-left: auto;
+margin-right: auto;
+}
+
+.topNav{
+    display: flex;
+    flex-direction: row;
+     justify-content: flex-end;
+
+}
+.topNav a{
+    padding: 4px 8px;
+    font-size: 18px;
+     font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+} 
+
+
+.iconsContact{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 60px;
+}
+.iconsContact a{
+    padding: 3px;
+    margin: 1%;
+    color:#f3def0;
+    font-size:30px;
+    
+}
+main{
+    background: linear-gradient(5deg, rgba(190, 3, 134, 0.2) 0%,
+     rgba(106, 50, 134, 0.2) 100%);
+     /* box-shadow:  0 0 70px 70px rgba(153, 74, 194, .15) inset; */
+}
+.skillList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+}
+.skillHeader{
+    margin-top:-25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+.skillList li{
+   width: 33%;
+   padding: 0px;
+   padding-top: 10px;
+ 
+}
+#experience{
+    margin-top: 60px;
+}
+
+.experienceFlex{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.experienceFlex div{
+   width: 49%;
+}
+
+
+/* @media (min-width: 850px){
+
+    #topPic{
+        height: 500px;
+     
+       background-size:cover;
+    }
+
+
+} */
+@media (min-width:520px){
+
+    /* #topPic{
+        height: 400px;
+     
+       background-size:cover;
+    } */
+    .fName{
+     
+    font-size: 44px;
+    }
+#topPic p{
+        font-size: 30px;   
+    }
+    /* .topNav{
+        
+        margin-left: 65%;
+    } */
+
+    .topNav a{
+        padding: 4px 10px;
+        font-size: 24px;
+       
+    }
+ 
+   
+    .iconsContact{
+        display:flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-top: 160px;
+    }
+    .iconsContact a{
+        padding: 3px;
+        margin: 1%;
+        color:#e4b4dc;
+        font-size:40px;
+    }
+
+
+
+}

@@ -1,0 +1,43 @@
+
+
+.abtHdr{
+font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+/* background: rgb(64,5,99); */
+background: linear-gradient(90deg, rgba(64,5,99,0.78) 0%,
+ rgba(145,36,149,0.775) 31%, rgba(235,120,225,0.68) 100%);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top: 15px;
+}
+.abtTitle{
+    font-family:"Oleo script", sans-serif ;
+font-size: 20px;
+margin-left:8px;
+}
+.abtNav a{
+padding: 2px 8px;
+align-self: center;
+font-size: 16px;
+font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.interestSection{
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    border-radius:20px;
+    margin: 16px 15px;
+    padding: 2%;
+}
+
+
+@media (min-width:520px){
+    .abtTitle{
+   font-size:26px ;
+      }
+  .abtNav a{
+        
+ font-size: 20px;
+     }
+
+}
