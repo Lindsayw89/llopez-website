@@ -7,13 +7,22 @@ background: linear-gradient(90deg, rgba(64,5,99,0.78) 0%,
  rgba(145,36,149,0.775) 31%, rgba(235,120,225,0.68) 100%);
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 padding-top: 15px;
+border-radius: 10px;
+border:solid rgb(107, 13, 107)2px;
 }
 .abtTitle{
     font-family:"Oleo script", sans-serif ;
 font-size: 20px;
-margin-left:8px;
+margin-left:28px;
+}
+.abtNav{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+  
 }
 .abtNav a{
 padding: 2px 8px;
@@ -21,14 +30,44 @@ align-self: center;
 font-size: 16px;
 font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.intro{
+    padding: 30px;
+    font-size: 18px;
+}
+
+ body{
+    background: #B877B5;
+    background: -webkit-linear-gradient(bottom left, #B877B5, #F9F9F9);
+    background: -moz-linear-gradient(bottom left, #B877B5, #F9F9F9);
+    background: linear-gradient(to top right, #B877B5, #F9F9F9);
+} 
 .interestSection{
     display: flex;
     flex-direction: row;
     border: solid black 1px;
     border-radius:20px;
-    margin: 16px 15px;
+    margin: 24px 15px;
     padding: 2%;
+    background-color: white;
+    align-items: center;
 }
+.dogPic{
+    
+    width: 100%;
+   height: auto; 
+       border-radius:4px;
+    
+    }
+  
+       .ghostPic{
+          
+          width: 100%;
+    height: auto;
+       }
+       .gametime{
+        width: 100%;
+        height: auto; 
+       }
 
 
 @media (min-width:520px){
@@ -39,5 +78,18 @@ font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
         
  font-size: 20px;
      }
+     /* .dogPic{
+   margin-top: 5%;
+      height: 100%;
+      width: 100%; 
+     border-radius:4px
+     }
+
+     .ghostPic{
+        margin-top: 5%;
+        height: 90%;
+         width: 90%;
+     }  */
+     
 
 }

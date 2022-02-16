@@ -100,8 +100,10 @@ margin-right: auto;
     
 }
 main{
-    background: linear-gradient(5deg, rgba(190, 3, 134, 0.2) 0%,
-     rgba(106, 50, 134, 0.2) 100%);
+    background: #B877B5;
+    background: -webkit-linear-gradient(bottom left, #B877B5, #F9F9F9);
+    background: -moz-linear-gradient(bottom left, #B877B5, #F9F9F9);
+    background: linear-gradient(to top right, #B877B5, #F9F9F9);
      /* box-shadow:  0 0 70px 70px rgba(153, 74, 194, .15) inset; */
 }
 .skillList {
