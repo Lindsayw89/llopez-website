@@ -6,7 +6,7 @@ const MainContent=()=>{
 
 
     return(
-  <main>
+  <main className="mainBtm">
 
 
 
@@ -35,6 +35,22 @@ const MainContent=()=>{
 <h4>Tutor</h4>
 <p>Dates: March 2019- August 2020</p>
 <p>Helped students learn HTML & CSS</p>
+</div>
+</div>
+</section>
+
+<section id="education" className="btmMain"> 
+<h2> Education</h2>
+<div  className='educationFlex'>
+<div>
+<h4>Lubbock coding Academy</h4>
+<p>Graduated May 2020 </p>
+<p> Web Development certificate</p>
+</div>
+<div>
+<h4>Moorpark College</h4>
+<p>Graduated June 2010</p>
+<p>Associates Degree in General Studies</p>
 </div>
 </div>
 

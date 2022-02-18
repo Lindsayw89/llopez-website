@@ -62,6 +62,10 @@ const AboutMe=()=>{
         </div>
 
    </section>
+
+   <section className="contactEnd">
+       <p>  Feel Free to reach out to me! My E-mail is Lindsay.89@outlook.com</p>
+   </section>
 </body>
        </html>
       

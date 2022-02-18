@@ -68,6 +68,9 @@ font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
         width: 100%;
         height: auto; 
        }
+       .contactEnd{
+           padding: 30px 0px;
+       }
 
 
 @media (min-width:520px){

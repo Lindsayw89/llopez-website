@@ -99,6 +99,7 @@ margin-right: auto;
     font-size:30px;
     
 }
+
 main{
     background: #B877B5;
     background: -webkit-linear-gradient(bottom left, #B877B5, #F9F9F9);
@@ -106,6 +107,7 @@ main{
     background: linear-gradient(to top right, #B877B5, #F9F9F9);
      /* box-shadow:  0 0 70px 70px rgba(153, 74, 194, .15) inset; */
 }
+
 .skillList {
     display: flex;
     flex-direction: row;
@@ -127,18 +129,22 @@ main{
    padding-top: 10px;
  
 }
-#experience{
+#experience ,#education {
     margin-top: 60px;
+   
 }
 
-.experienceFlex{
+.experienceFlex, .educationFlex{
    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.experienceFlex div{
+.experienceFlex div, .educationFlex div{
    width: 49%;
+}
+.btmMain {
+    padding-bottom: 100px;
 }
 
 
