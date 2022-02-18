@@ -20,9 +20,9 @@ let navigate=useNavigate()
   <p> Software Developer</p>
   {/* <a> a link here</a> */}
  <nav className="iconsContact"> 
-  <a href="linkedin.com/in/lindsay-lopez89">
+  <a href="https://www.linkedin.com/in/lindsay-lopez89/">
     <FaLinkedin  /> </a>
-  <a href="google.com" ><FaGithubSquare  /> </a>
+  <a href="https://github.com/Lindsayw89" ><FaGithubSquare  /> </a>
   <a href="mailto:lindsay.89@outlook.com"><FaEnvelope/> </a>
   </nav>
    </section>
