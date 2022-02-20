@@ -133,16 +133,18 @@ main{
     margin-top: 60px;
    
 }
+ 
+
 
 .experienceFlex, .educationFlex{
-   
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+margin: 0px 15px;
 }
-.experienceFlex div, .educationFlex div{
-   width: 49%;
-}
+
+
+
+
 .btmMain {
     padding-bottom: 100px;
 }
