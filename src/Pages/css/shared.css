@@ -84,7 +84,20 @@ margin-right: auto;
     font-size: 18px;
      font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
 } 
+/* .lhover{
+     /* background-image: linear-gradient(#B877B5, #B877B5);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right; 
+font-size: 20px;
+ transition: background-size 300ms; 
 
+}
+.lhover:hover {
+ /* background-size: 100% 100%;
+ background-position-x:left; 
+ font-size: 25px;
+} */
 
 .iconsContact{
     display:flex;

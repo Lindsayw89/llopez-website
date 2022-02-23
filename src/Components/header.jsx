@@ -12,8 +12,8 @@ let navigate=useNavigate()
         <header className="wlcmHdr">
 <section id="topPic">
     <nav className="topNav">
-    <a onClick={()=>navigate("/")}>Home</a>
-    <a onClick={()=>navigate("/aboutme")}>About Me</a>
+    <a className="lhover" onClick={()=>navigate("/")}>Home</a>
+    <a className="lhover" onClick={()=>navigate("/aboutme")}>About Me</a>
     </nav>
    
   <h1 className="fName">  Lindsay Lopez</h1>
