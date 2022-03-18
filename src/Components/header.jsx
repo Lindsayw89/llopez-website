@@ -4,6 +4,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import {useNavigate} from 'react-router-dom'
+import Nav from '../Components/TopNavBar'
+
 const Header=()=>{
 let navigate=useNavigate()
 
@@ -11,10 +13,7 @@ let navigate=useNavigate()
     return(
         <header className="wlcmHdr">
 <section id="topPic">
-    <nav className="topNav">
-    <a className="lhover" onClick={()=>navigate("/")}>Home</a>
-    <a className="lhover" onClick={()=>navigate("/aboutme")}>About Me</a>
-    </nav>
+    <Nav/>
    
   <h1 className="fName">  Lindsay Lopez</h1>
   <p> Software Developer</p>

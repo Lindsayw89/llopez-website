@@ -1,25 +1,20 @@
 
-import React from 'react'
+import React, {useState} from 'react'
 import '../../Pages/css/about.css'
 import {useNavigate} from 'react-router-dom'
+import Nav from '../TopNavBar'
 
 const HeaderAM=()=>{
 let navigate=useNavigate()
+const [title, setTitle]=useState("About Me")
 
 
     return(
         <header className="abtHdr">
  
- <h1 className="abtTitle">  About Me</h1>
-    <nav className="abtNav">
-    <a className="lhover" onClick={()=>navigate("/")}>Home</a>
-    <a className="lhover" onClick={()=>navigate("/aboutme")}>About Me</a>
-    </nav>
-  
+ <h1 className="abtTitle">   {title}</h1>
+<Nav/>  
 
-   
-
-       
         </header>
     )
 }
